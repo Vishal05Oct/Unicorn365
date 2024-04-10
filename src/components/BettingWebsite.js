@@ -40,6 +40,7 @@ const BettingWebsite = () => {
           <a href="https://unicon.igotrackier.com/click?campaign_id=20&pub_id=30&source=Googleads" className="btn btn-primary btn-lg">Join Now</a>
         </div>
       </section>
+      
       {/* Footer Section */}
       <footer className="footer bg-dark text-white text-center py-4">
         <div className="container">
