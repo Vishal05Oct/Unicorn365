@@ -40,3 +40,23 @@
 .footer p {
   margin: 0;
 }
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .banner-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40%;
+    transform: translate(-50%, -40%);
+  }
+  
+  .btn-join-now {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+
+  .banner {
+    height: 25vh;
+  }
+}

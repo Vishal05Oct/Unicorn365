@@ -8,8 +8,6 @@ const BettingWebsite = () => {
       {/* Full Screen Banner Section */}
       <section className="banner" style={{ backgroundImage: `url(${bannerImage})` }}>
         <div className="banner-content">
-          {/* <h1>Welcome to Our Betting Website</h1>
-          <p>Experience the excitement of betting on your favorite sports!</p> */}
           <a href="https://unicon.igotrackier.com/click?campaign_id=20&pub_id=30&source=Googleads" className="btn-join-now">Join Now</a>
         </div>
       </section>
