@@ -1,80 +1,28 @@
-/* Banner Styles */
 .banner {
-  background-size: cover;
-  color: #fff;
-  text-align: center;
-  height: 100vh;
+  position: relative;
+  height: 100vh; /* Set full height of viewport */
+  background-size: cover; /* Cover entire area */
+  background-position: center; /* Center the image */
 }
 
 .banner-content {
   position: absolute;
-  margin-left: 482px;
-  margin-top: 41.5%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.btn-join-now {
- background-color: white;
-  color: black;
-  padding: 23px 66px;
-  text-decoration: none;
-  font-size: 20px;
-  border-radius: 10px;
-  font-weight: 900;
-}
-
-.btn-join-now:hover {
-  background-color: #e55d00;
-}
-
-/* Footer Styles */
-.footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.footer p {
-  margin: 0;
-}
-
-/* Responsive Styles for Mobile */
-@media (max-width: 768px) {
-  .banner-content {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    top: 40%;
-  }
-  
-  .btn-join-now {
-    padding: 12px 30px;
-    font-size: 14px;
-  }
-
+/* Desktop Banner */
+@media (min-width: 769px) {
   .banner {
-    height: 25vh;
+    background-image: url('./uniconbanner.png');
+    height: 860px;
   }
-
-  .btn-join-now {
-    background-color:Black;
-     color: white;
-     text-decoration: none;
-     font-size: 20px;
-     border-radius: 10px;
-     font-weight: 900;
-   }
-
-   .banner-content {
-    margin-left: 48px;
-    margin-top: -0.5%;
-    position: sticky;
 }
-.banner-content {
-  margin-left: auto;
-  margin-right: auto;
-  top: 40%;
-  width: 90%;
-}
-   
+
+/* Mobile Banner */
+@media (max-width: 768px) {
+  .banner {
+    background-image: url('./Uniconbanner1.jpg');
+  }
 }

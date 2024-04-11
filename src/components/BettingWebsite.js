@@ -1,13 +1,14 @@
 import React from 'react';
 import './BettingWebsite.css'; // Import CSS file for custom styling
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-import bannerImage from './uniconbanner.png'; // Import the banner image
+import desktopBannerImage from './uniconbanner.png'; // Import the desktop banner image
+import mobileBannerImage from './Uniconbanner1.jpg'; // Import the mobile banner image
 
 const BettingWebsite = () => {
   return (
     <div>
-      {/* Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      {/* Header */}
+      <header className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand" href="#">Unicon365</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,20 +28,15 @@ const BettingWebsite = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </header>
 
       {/* Full Screen Banner Section */}
-      <section className="banner" style={{ backgroundImage: `url(${bannerImage})` }}>
+      <section className="banner">
         <div className="banner-content text-center text-white">
-          <a href="https://unicon.igotrackier.com/click?campaign_id=20&pub_id=30&source=Googleads" className="btn btn-primary btn-lg">Join Now</a>
+          <a href="https://unicon.igotrackier.com/click?campaign_id=20&pub_id=30&source=Googleads" className="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">Join Now</a>
         </div>
       </section>
-      <section className="banner" style={{ backgroundImage: `url(${bannerImage})` }}>
-        <div className="banner-content text-center text-white">
-          <a href="https://unicon.igotrackier.com/click?campaign_id=20&pub_id=30&source=Googleads" className="btn btn-primary btn-lg">Join Now</a>
-        </div>
-      </section>
-      
+
       {/* Footer Section */}
       <footer className="footer bg-dark text-white text-center py-4">
         <div className="container">
@@ -52,4 +48,4 @@ const BettingWebsite = () => {
   );
 }
 
-export default BettingWebsite; 
+export default BettingWebsite;
