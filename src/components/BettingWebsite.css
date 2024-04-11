@@ -10,6 +10,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 
 /* Desktop Banner */
@@ -23,7 +24,7 @@
 /* Mobile Banner */
 @media (max-width: 768px) {
   .banner {
-    background-image: url('./Uniconbanner1.jpg');
-    height: 413px;
+    background-image: url('./mobilebanner.png');
+    height: 85vh;
   }
 }

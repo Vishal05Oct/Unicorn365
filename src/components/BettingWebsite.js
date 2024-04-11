@@ -2,7 +2,7 @@ import React from 'react';
 import './BettingWebsite.css'; // Import CSS file for custom styling
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import desktopBannerImage from './uniconbanner.png'; // Import the desktop banner image
-import mobileBannerImage from './Uniconbanner1.jpg'; // Import the mobile banner image
+import mobileBannerImage from './mobilebanner.png'; // Import the mobile banner image
 
 const BettingWebsite = () => {
   return (
