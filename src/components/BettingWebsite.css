@@ -28,3 +28,31 @@
     height: 85vh;
   }
 }
+
+/* BettingWebsiteMobile.css */
+
+/* Styling for button in mobile view */
+@media only screen and (max-width: 768px) {
+  .banner-content {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+  }
+
+  .banner-content .btn {
+    /* Increase button size for mobile view */
+    font-size: 32px; /* Increase font size */
+    padding: 14px 43px; /* Increase padding */
+    margin-top: 79vh;
+    width: 50vh;
+    background-color: #C1191A; /* Change button background color */
+    border-color: #C1191A; /* Change button border color */
+  }
+
+  .banner-content .btn:hover {
+    background-color: #9F1516; /* Change button background color on hover */
+    border-color: #9F1516; /* Change button border color on hover */
+  }
+}
+
+
+
