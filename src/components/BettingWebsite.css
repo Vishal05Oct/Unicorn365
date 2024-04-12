@@ -40,10 +40,10 @@
 
   .banner-content .btn {
     /* Increase button size for mobile view */
-    font-size: 32px; /* Increase font size */
+    font-size: 19px; /* Increase font size */
     padding: 14px 43px; /* Increase padding */
     margin-top: 79vh;
-    width: 47vh;
+    width: 46vh;
     background-color: #C1191A; /* Change button background color */
     border-color: #C1191A; /* Change button border color */
   }
